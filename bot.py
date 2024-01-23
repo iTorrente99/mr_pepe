@@ -5,7 +5,7 @@ import discord
 import json
 
 BDO_API_URL = "https://api.arsha.io/v1/eu/GetWorldMarketWaitList"
-TOKEN = "MTE5OTQ0OTY5MDM2NjgwODEyNA.GdVkKL.dQPAM8f_zA9ZAzMZpmre54V60c1vc9Yo9Pu1-k"
+TOKEN = os.getenv('DISCORD_TOKEN')
 MANOS_IDS = [
     "705512",
     "705511",
